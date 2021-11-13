@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/home/jefferson/Desktop/Projetos/casacodigo/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
