@@ -1,7 +1,6 @@
 package dev.jefferson.model.dto;
 
 import java.io.Serializable;
-import java.util.UUID;
 
 import dev.jefferson.CpfCnpjValidation;
 import dev.jefferson.model.Usuario;
@@ -9,17 +8,16 @@ import dev.jefferson.model.Usuario;
 public class UsuarioDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	private UUID id;
+	private String id;
 	private String nome;
 	private String endereco;
 	private String cpf;
 
-	public UUID getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(UUID id) {
-		if(id == null) throw new IllegalArgumentException("ID não pode ser nulo");
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -28,7 +26,7 @@ public class UsuarioDTO implements Serializable {
 	}
 
 	public void setNome(String nome) {
-		if(id == null) throw new IllegalArgumentException("Nome não pode ser nulo");
+		if(nome == null) throw new IllegalArgumentException("Nome não pode ser nulo");
 		this.nome = nome;
 	}
 
@@ -54,13 +52,13 @@ public class UsuarioDTO implements Serializable {
 	}
 	
 	
-	public static Usuario convert(UsuarioDTO dto) {
-		Usuario user = new Usuario();
-		user.setCpf(dto.getCpf());
-		user.setEndereco(dto.getEndereco());
-		user.setId(dto.getId());
-		user.setNome(dto.getNome());
-		return user;
+	public static UsuarioDTO convert(Usuario usuario) {
+		UsuarioDTO dto = new UsuarioDTO();
+		dto.setCpf(usuario.getCpf());
+		dto.setEndereco(usuario.getEndereco());
+		dto.setId(usuario.getId());
+		dto.setNome(usuario.getNome());
+		return dto;
 	}
 
 }

@@ -4,8 +4,6 @@ import java.io.Serializable;
 import java.util.UUID;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -17,15 +15,14 @@ public class Usuario implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	private UUID id;
+	private String id;
 	private String nome;
 	private String endereco;
 	private String cpf;
 	
 	public Usuario() {};
 	
-	public Usuario(UUID id, String nome, String endereco, String cpf) {
+	public Usuario(String id, String nome, String endereco, String cpf) {
 		this.id = id;
 		this.nome = nome;
 		this.cpf = cpf;
@@ -34,17 +31,17 @@ public class Usuario implements Serializable {
 	
 	
 	public Usuario(String nome, String endereco, String cpf) {
-		this.id = UUID.randomUUID();
+		this.id = UUID.randomUUID().toString();
 		this.nome = nome;
 		this.cpf = cpf;
 		this.endereco = endereco;
 	}
 
-	public UUID getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(UUID id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -72,13 +69,13 @@ public class Usuario implements Serializable {
 		this.cpf = cpf;
 	}
 	
-	public static UsuarioDTO convert(Usuario usuario) {
-		UsuarioDTO dto = new UsuarioDTO();
-		dto.setCpf(usuario.getCpf());
-		dto.setEndereco(usuario.getEndereco());
-		dto.setId(usuario.getId());
-		dto.setNome(usuario.getNome());
-		return dto;
+	public static Usuario convert(UsuarioDTO dto) {
+		Usuario user = new Usuario();
+		user.setCpf(dto.getCpf());
+		user.setEndereco(dto.getEndereco());
+		user.setId(dto.getId());
+		user.setNome(dto.getNome());
+		return user;
 	}
 
 }
