@@ -32,8 +32,8 @@ public class CompraController {
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public CompraDTO newCompra(@RequestBody CompraDTO dto) {
-		return service.save(dto);
+	public CompraDTO newCompra(@RequestParam(name = "id", required = true) String idUser, @RequestBody CompraDTO dto) {
+		return service.save(idUser, dto);
 	}
 	
 	@GetMapping("/filter")

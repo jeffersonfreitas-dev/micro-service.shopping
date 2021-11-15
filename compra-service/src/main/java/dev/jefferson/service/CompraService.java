@@ -35,8 +35,8 @@ public class CompraService {
 
 
 	@Transactional
-	public CompraDTO save(CompraDTO dto) {
-		if (userService.getUserByCpf(dto.getUsuarioId()) == null) {
+	public CompraDTO save(String idUser, CompraDTO dto) {
+		if (userService.getUserByCpf(idUser, dto.getUsuarioId()) == null) {
 			return null;
 		};
 		

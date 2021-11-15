@@ -11,14 +11,14 @@ import dev.jefferson.exceptions.RegistroNaoEncontradoException;
 @Service
 public class UsuarioService {
 	
-	public UsuarioDTO getUserByCpf(String cpf) {
-		String url = "http://localhost:8081/usuarios/cpf/" + cpf;
+	public UsuarioDTO getUserByCpf(String id, String cpf) {
+		String url = "http://localhost:8081/usuarios/cpf/" + cpf + "?id=" + id;
 		try {
 			RestTemplate restTemplate = new RestTemplate();
 			ResponseEntity<UsuarioDTO> result = restTemplate.getForEntity(url, UsuarioDTO.class);
 			return result.getBody();
 		} catch (HttpClientErrorException.NotFound e) {
-			throw new RegistroNaoEncontradoException("Usuário com CPF informado não encontrado");
+			throw new RegistroNaoEncontradoException("Usuário com CPF ou ID informado não encontrado");
 		}
 	}
 

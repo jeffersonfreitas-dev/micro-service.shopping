@@ -8,7 +8,7 @@ import dev.jefferson.model.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, String>{
 
-	Optional<Usuario> findByCpfIgnoreCase(String cpf);
+	Optional<Usuario> findByIdAndCpf(String id, String cpf);
 	
 
 }

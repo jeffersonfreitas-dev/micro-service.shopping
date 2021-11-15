@@ -68,9 +68,9 @@ public class UsuarioService {
 	}
 
 
-	public UsuarioDTO getUserByCpf(String cpf) {
-		Usuario user = repository.findByCpfIgnoreCase(cpf).orElseThrow( 
-				() -> new RegistroNaoEncontradoException("Usuário com Cpf informado não encontrado: " + cpf));
+	public UsuarioDTO getUserByCpf(String id, String cpf) {
+		Usuario user = repository.findByIdAndCpf(id, cpf).orElseThrow( 
+				() -> new RegistroNaoEncontradoException("Usuário com Cpf ou ID informado não encontrado: " + cpf));
 		return DTOConverter.convert(user);
 	}
 
