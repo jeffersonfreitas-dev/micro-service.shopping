@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import dev.jefferson.dto.ErrorDTO;
+
 @RestControllerAdvice
 public class ErrorAdviceException {
 	
@@ -26,10 +28,10 @@ public class ErrorAdviceException {
 	}
 	
 	
-	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	@ResponseStatus(HttpStatus.NOT_FOUND)
 	@ExceptionHandler(RegistroNaoEncontradoException.class)
 	public ErrorDTO handlerRegistroNaoEncontradoException(RegistroNaoEncontradoException ex) {
-		return new ErrorDTO(HttpStatus.BAD_REQUEST.value(), ex.getMessage());
+		return new ErrorDTO(HttpStatus.NOT_FOUND.value(), ex.getMessage());
 	}
 	
 	

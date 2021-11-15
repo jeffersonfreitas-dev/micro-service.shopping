@@ -59,4 +59,9 @@ public class UsuarioController {
 	public UsuarioDTO update(@PathVariable String id, @RequestBody UsuarioDTO dto) {
 		return service.update(id, dto);
 	}
+	
+	@GetMapping("/cpf/{cpf}")
+	public UsuarioDTO getUserByCpf(@PathVariable String cpf) {
+		return service.getUserByCpf(cpf);
+	}
 }
