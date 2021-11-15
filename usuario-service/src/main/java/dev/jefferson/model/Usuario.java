@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import dev.jefferson.model.dto.UsuarioDTO;
+import dev.jefferson.dto.UsuarioDTO;
 
 @Entity
 @Table(name = "usuario")

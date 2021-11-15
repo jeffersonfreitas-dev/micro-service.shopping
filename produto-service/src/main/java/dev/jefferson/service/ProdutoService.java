@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import dev.jefferson.dto.ProdutoDTO;
 import dev.jefferson.exceptions.RegistroNaoEncontradoException;
 import dev.jefferson.model.Categoria;
 import dev.jefferson.model.Produto;
-import dev.jefferson.model.dto.ProdutoDTO;
 import dev.jefferson.repository.CategoriaRepository;
 import dev.jefferson.repository.ProdutoRepository;
 

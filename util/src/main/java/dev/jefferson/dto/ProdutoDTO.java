@@ -1,4 +1,4 @@
-package dev.jefferson.model.dto;
+package dev.jefferson.dto;
 
 import java.io.Serializable;
 

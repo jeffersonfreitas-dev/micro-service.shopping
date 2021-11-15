@@ -7,9 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import dev.jefferson.dto.UsuarioDTO;
 import dev.jefferson.exceptions.RegistroNaoEncontradoException;
 import dev.jefferson.model.Usuario;
-import dev.jefferson.model.dto.UsuarioDTO;
+import dev.jefferson.model.dto.DTOConverter;
 import dev.jefferson.repository.UsuarioRepository;
 
 @Service
@@ -22,7 +23,7 @@ public class UsuarioService {
 	public List<UsuarioDTO> getAll() {
 		List<Usuario> result = repository.findAll();
 		return result.stream()
-				.map(UsuarioDTO::convert)
+				.map(DTOConverter::convert)
 				.collect(Collectors.toList());
 	}
 
@@ -31,13 +32,13 @@ public class UsuarioService {
 	public UsuarioDTO save(UsuarioDTO dto) {
 		Usuario usuario = new Usuario(dto.getNome(), dto.getEndereco(), dto.getCpf());
 		usuario = repository.save(usuario);
-		return UsuarioDTO.convert(usuario);
+		return DTOConverter.convert(usuario);
 	}
 
 
 	public UsuarioDTO getUsuario(String id) {
 		Usuario user = verificarUsuarioExiste(id);
-		return UsuarioDTO.convert(user);
+		return DTOConverter.convert(user);
 	}
 
 
@@ -56,7 +57,7 @@ public class UsuarioService {
 		user.setEndereco(dto.getEndereco());
 		user.setNome(dto.getNome());
 		user = repository.save(user);
-		return UsuarioDTO.convert(user);
+		return DTOConverter.convert(user);
 	}
 	
 	

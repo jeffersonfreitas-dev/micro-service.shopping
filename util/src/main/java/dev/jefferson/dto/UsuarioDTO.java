@@ -1,9 +1,8 @@
-package dev.jefferson.model.dto;
+package dev.jefferson.dto;
 
 import java.io.Serializable;
 
 import dev.jefferson.CpfCnpjValidation;
-import dev.jefferson.model.Usuario;
 
 public class UsuarioDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -50,15 +49,6 @@ public class UsuarioDTO implements Serializable {
 		}
 		this.cpf = cpf;
 	}
-	
-	
-	public static UsuarioDTO convert(Usuario usuario) {
-		UsuarioDTO dto = new UsuarioDTO();
-		dto.setCpf(usuario.getCpf());
-		dto.setEndereco(usuario.getEndereco());
-		dto.setId(usuario.getId());
-		dto.setNome(usuario.getNome());
-		return dto;
-	}
+
 
 }
