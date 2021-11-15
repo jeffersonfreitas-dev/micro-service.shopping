@@ -1,5 +1,6 @@
 package dev.jefferson.service;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
@@ -11,8 +12,11 @@ import dev.jefferson.exceptions.RegistroNaoEncontradoException;
 @Service
 public class UsuarioService {
 	
+	@Value("${USUARIO_API_URL:http://localhost:8081/usuarios}")
+	private String url;
+	
 	public UsuarioDTO getUserByCpf(String id, String cpf) {
-		String url = "http://localhost:8081/usuarios/cpf/" + cpf + "?id=" + id;
+		url = url + "/cpf/" + cpf + "?id=" + id;
 		try {
 			RestTemplate restTemplate = new RestTemplate();
 			ResponseEntity<UsuarioDTO> result = restTemplate.getForEntity(url, UsuarioDTO.class);
