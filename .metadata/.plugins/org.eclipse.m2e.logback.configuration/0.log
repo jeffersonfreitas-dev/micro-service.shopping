@@ -9871,3 +9871,101 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2021-11-15 16:02:30,326 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-11-15 16:02:30,326 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-11-15 16:02:30,326 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/usuario-service/src/test/resources
+2021-11-15 16:49:03,128 [Worker-161: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dev.jefferson:produto:0.0.1-SNAPSHOT @ /home/jefferson/Desktop/Projetos/casacodigo/produto-service/pom.xml.
+2021-11-15 16:49:05,044 [Worker-161: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 16:49:07,269 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:49:07,269 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:49:07,270 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:49:07,270 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:49:07,271 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:49:07,271 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:49:07,271 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/produto-service/src/test/resources
+2021-11-15 16:52:59,165 [Worker-158: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 16:53:09,630 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:53:09,631 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:53:09,631 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:53:09,631 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:53:09,635 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:53:09,635 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:53:09,635 [Worker-158: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/produto-service/src/test/resources
+2021-11-15 16:53:59,765 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:53:59,765 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:53:59,766 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:53:59,766 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:53:59,769 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:53:59,769 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:53:59,769 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/produto-service/src/test/resources
+2021-11-15 16:59:28,599 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:59:28,599 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:59:28,599 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:59:28,599 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:59:28,602 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:59:28,602 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:59:28,602 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 16:59:44,308 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:59:44,309 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:59:44,309 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:59:44,309 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 16:59:44,313 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 16:59:44,313 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 16:59:44,313 [Worker-162: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 17:00:02,894 [Worker-169: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dev.jefferson:compra:0.0.1-SNAPSHOT @ /home/jefferson/Desktop/Projetos/casacodigo/compra-service/pom.xml.
+2021-11-15 17:00:02,957 [Worker-169: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 17:00:05,258 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 17:00:05,258 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 17:00:05,258 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 17:00:05,258 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 17:00:05,259 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 17:00:05,259 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 17:00:05,259 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 17:00:18,622 [Worker-162: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 17:00:18,688 [Worker-169: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: dev.jefferson:compra:0.0.1-SNAPSHOT @ /home/jefferson/Desktop/Projetos/casacodigo/compra-service/pom.xml.
+2021-11-15 17:00:18,746 [Worker-169: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 17:00:19,058 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 17:00:19,058 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 17:00:19,058 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 17:00:19,058 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 17:00:19,059 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 17:00:19,059 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 17:00:19,059 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 19:25:23,444 [Worker-175: Launching usuario-service - UsuarioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:23,479 [Worker-172: Launching produto-service - ProdutoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:24,195 [Worker-175: Launching usuario-service - UsuarioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:24,223 [Worker-172: Launching produto-service - ProdutoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:24,250 [Worker-175: Launching usuario-service - UsuarioApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:24,260 [Worker-172: Launching produto-service - ProdutoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:28,582 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-11-15 19:25:28,602 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:29,635 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:25:29,842 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:29:27,718 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:29:27,718 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:29:27,820 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 19:29:30,170 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 19:29:30,174 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:29:30,174 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:29:30,174 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 19:29:30,453 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:29:30,453 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:29:30,454 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 19:29:31,307 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-11-15 19:29:31,308 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:29:31,308 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:29:31,308 [Worker-172: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/util/src/test/resources
+2021-11-15 19:29:33,157 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:29:33,192 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:29:33,214 [Worker-168: Launching compra-service - CompraApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: dev.jefferson:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-11-15 19:30:50,270 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:30:50,270 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:30:50,271 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 19:30:50,358 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 19:30:50,360 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 19:30:50,360 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 19:30:50,360 [Worker-188: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources
+2021-11-15 20:06:35,958 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 20:06:36,072 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 20:06:36,315 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 20:06:36,430 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-11-15 20:06:36,471 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-11-15 20:06:36,472 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-11-15 20:06:36,472 [Worker-193: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jefferson/Desktop/Projetos/casacodigo/compra-service/src/test/resources

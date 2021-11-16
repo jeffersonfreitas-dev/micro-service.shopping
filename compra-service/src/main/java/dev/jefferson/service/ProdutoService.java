@@ -13,13 +13,13 @@ import dev.jefferson.exceptions.RegistroNaoEncontradoException;
 public class ProdutoService {
 	
 	@Value("${PRODUTO_API_URL:http://localhost:8082/produtos/}")
-	private String url;
+	private StringBuilder url;
 	
 	public ProdutoDTO getProdutoByIdentifier(String identif) {
-		url = url + identif;
+		url.append(identif);
 		try {
 			RestTemplate restTemplate = new RestTemplate();
-			ResponseEntity<ProdutoDTO> result = restTemplate.getForEntity(url, ProdutoDTO.class);
+			ResponseEntity<ProdutoDTO> result = restTemplate.getForEntity(url.toString(), ProdutoDTO.class);
 			return result.getBody();
 		} catch (HttpClientErrorException.NotFound e) {
 			throw new RegistroNaoEncontradoException("Produto não encontrado com a idenfiticação informada");
